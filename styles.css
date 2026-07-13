@@ -103,28 +103,6 @@ border-color: rgba(255,255,255,0.4);
   box-shadow: 0 0 0 3px var(--pink-deep), 0 14px 28px rgba(226, 69, 122, 0.3);
 }
 
-.heart-icon {
-  font-size: 2.2rem;
-  line-height: 1;
-  filter: drop-shadow(0 2px 4px rgba(226, 69, 122, 0.35));
-}
-
-.heart-label {
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--pink-deep);
-}
-
-.heart-number {
-  position: absolute;
-  top: 10px;
-  left: 12px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: var(--gold);
-  opacity: 0.9;
-}
-
 .footer {
   text-align: center;
 }
