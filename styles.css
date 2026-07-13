@@ -16,32 +16,42 @@ html, body {
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: radial-gradient(circle at 20% 20%, #ffe3ec 0%, #ffd3e0 35%, #ffc1d6 100%);
-  color: var(--ink);
-  min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
+font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+background-image:
+linear-gradient(
+rgba(0,0,0,0.55),
+rgba(0,0,0,0.55)
+),
+url('background.jpg');
+
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+color: white;
+min-height: 100vh;
+overflow-x: hidden;
+position: relative;
 }
 
 .sky {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background-image:
-    radial-gradient(circle, rgba(255,255,255,0.6) 2px, transparent 2px);
-  background-size: 60px 60px;
-  opacity: 0.5;
+  display:none;
 }
 
 .wrapper {
-  position: relative;
-  z-index: 1;
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 56px 24px 40px;
+max-width: 1000px;
+margin: auto;
+padding: 50px 20px;
+
+background: rgba(0,0,0,0.35);
+backdrop-filter: blur(10px);
+
+border-radius: 24px;
+
+margin-top: 40px;
+margin-bottom: 40px;
 }
+
 
 .intro {
   text-align: center;
