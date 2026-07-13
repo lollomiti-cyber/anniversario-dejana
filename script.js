@@ -21,11 +21,7 @@ messages.forEach((msg, index) => {
   const btn = document.createElement('button');
   btn.className = 'heart-btn';
   btn.setAttribute('aria-label', `Play message ${index + 1}: ${msg.label}`);
-  btn.innerHTML = `
-    <span class="heart-number">${index + 1}</span>
-    <span class="heart-icon">💗</span>
-    <span class="heart-label">${msg.label}</span>
-  `;
+  btn.innerHTML = <span>${msg.label}</span>;
 
   btn.addEventListener('click', () => {
     const isSame = player.src.endsWith(msg.file) && !player.paused;
