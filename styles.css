@@ -1,9 +1,9 @@
 :root {
-  --pink: #ff6f9c;
-  --pink-deep: #e2457a;
-  --cream: #fff5f7;
-  --gold: #ffcb69;
-  --ink: #4a2540;
+  --primary: #ffffff;
+  --secondary: #d1d5db;
+  --accent: #f5c16c;
+  --dark: #111827;
+
 }
 
 * {
@@ -18,10 +18,6 @@ html, body {
 body {
 font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
 background-image:
-linear-gradient(
-rgba(0,0,0,0.15),
-rgba(0,0,0,0.15)
-),
 url('background.jpg');
 
 background-size: cover;
@@ -39,17 +35,9 @@ position: relative;
 }
 
 .wrapper {
-max-width: 1000px;
+max-width: 1100px;
 margin: auto;
 padding: 50px 20px;
-
-background: rgba(0,0,0,0.10);
-backdrop-filter: blur(2px);
-
-border-radius: 24px;
-
-margin-top: 40px;
-margin-bottom: 40px;
 }
 
 
@@ -68,11 +56,11 @@ margin-bottom: 40px;
 }
 
 .intro h1 {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: clamp(2rem, 6vw, 3.2rem);
-  margin: 0 0 12px;
-  color: var(--pink-deep);
-  text-shadow: 0 2px 0 rgba(255,255,255,0.6);
+font-size: clamp(3rem, 6vw, 5rem);
+font-weight: 700;
+color: white;
+text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+margin-bottom: 10px;
 }
 
 .subtitle {
