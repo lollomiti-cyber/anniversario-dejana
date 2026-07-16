@@ -1,14 +1,10 @@
 const messages = [
-  { label: "You're my favorite", file: "/audio/message-01.mp3" },
-  { label: "I think of you", file: "/audio/message-02.mp3" },
-  { label: "You make me smile", file: "/audio/message-03.mp3" },
-  { label: "My heart is yours", file: "/audio/message-04.mp3" },
-  { label: "I'm grateful for you", file: "/audio/message-05.mp3" },
-  { label: "You're my home", file: "/audio/message-06.mp3" },
-  { label: "I love your laugh", file: "/audio/message-07.mp3" },
-  { label: "Forever with you", file: "/audio/message-08.mp3" },
-  { label: "You're beautiful", file: "/audio/message-09.mp3" },
-  { label: "I love you", file: "/audio/message-10.mp3" },
+  { label: "Buongiorno ('Piacere, Lorenzo!'), file: "/audio/message-01.mp3" },
+  { label: "Mattina (L'inizio)", file: "/audio/message-02.mp3" },
+  { label: "Pranzo ('100%')", file: "/audio/message-03.mp3" },
+  { label: "Pomeriggio (Lo sviluppo)", file: "/audio/message-04.mp3" },
+  { label: "Tramonto (Il consolidamento)", file: "/audio/message-05.mp3" },
+  { label: "Sera (Le esperienze)", file: "/audio/message-06.mp3" },
 ];
 
 const heartsContainer = document.getElementById('hearts');
