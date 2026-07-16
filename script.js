@@ -1,5 +1,5 @@
 const messages = [
-  { label: "Buongiorno ('Piacere, Lorenzo!'), file: "/audio/message-01.mp3" },
+  { label: "Buongiorno ('Piacere, Lorenzo!')", file: "/audio/message-01.mp3" },
   { label: "Mattina (L'inizio)", file: "/audio/message-02.mp3" },
   { label: "Pranzo ('100%')", file: "/audio/message-03.mp3" },
   { label: "Pomeriggio (Lo sviluppo)", file: "/audio/message-04.mp3" },
