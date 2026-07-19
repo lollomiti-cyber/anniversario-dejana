@@ -3,8 +3,8 @@ const messages = [
   { label: "Mattina (L'inizio)", file: "/audio/message-02.mp3" },
   { label: "Pranzo ('100%')", file: "/audio/message-03.mp3" },
   { label: "Pomeriggio (Lo sviluppo)", file: "/audio/message-04.mp3" },
-  { label: "Tramonto (Il consolidamento)", file: "/audio/message-05.mp3" },
-  { label: "Sera (Le esperienze)", file: "/audio/message-06.mp3" }
+  { label: "Tramonto (Le esperienze)", file: "/audio/message-05.mp3" },
+  { label: "Sera (Il consolidamento)", file: "/audio/message-06.mp3" }
 ];
 
 const heartsContainer = document.getElementById('hearts');
